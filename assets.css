@@ -1,0 +1,38 @@
+html{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    background:linear-gradient(90deg, #6D6785, #F685CC);
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  
+  .content{
+    background-color:#E6EFE9;
+     height: 70vh;
+     width: 800px;
+    border-radius:50px;
+    position:relative;
+  }
+  
+  #myButton{
+    position:absolute;
+    top:150px;
+    left:45%;
+    padding:15px;
+    background-color:#8A5082;
+    border-radius:10px;
+  }
+  
+  #box-1{  
+  width:400px;
+  text-align:center;
+  position:absolute;
+  top: 230px;
+  left:25%;
+  font-size:2em;
+  padding:10px;
+  border-bottom: solid 1px #000;
+  }
